@@ -35,9 +35,10 @@ namespace TestApp.ViewModels
 
         [ObservableProperty]
         private string inputText =
-@"A 53.9023 27.5615 60 0.9
-B 53.9150 27.4500 120 0.8
-C 53.9100 27.5800 300 0.7";
+@"A 53.9023 27.5615 0 0.9
+B 53.9150 27.4500 85 0.9
+C 53.9100 27.5800 300 0.9
+D 53.8950 27.5000 30 0.01";
 
         [RelayCommand]
         private void Calculate(MapControl mapControl)
